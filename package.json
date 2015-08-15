@@ -8,10 +8,11 @@
     "postcss-cli": "^1.5.0"
   },
   "devDependencies": {
-    "autoprefixer": "^5.2.0",
+    "autoprefixer-core": "^5.2.1",
     "csswring": "^3.0.5",
     "gulp": "^3.9.0",
-    "gulp-postcss": "^5.1.10"
+    "gulp-postcss": "^5.1.10",
+    "postcss-custom-properties": "^4.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,14 @@
+:root {
+  --salmon: hsl(353.7, 70.5%, 70.8%);
+}
+
 body {
   font-family: 'Cabin', sans-serif;
   line-height: 150%;
+}
+
+a {
+  color: var(--salmon);
 }
 
 section {
@@ -10,7 +18,7 @@ section {
 }
 
 header {
-  background-color: hsl(353.7, 70.5%, 70.8%);
+  background-color: var(--salmon);
   color: white;
   padding-top: 2em;
 }

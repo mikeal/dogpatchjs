@@ -1,8 +1,6 @@
 var gulp = require('gulp');
 
 var postcss = require('gulp-postcss');
-var autoprefixer = require('autoprefixer');
-var csswring = require('csswring');
 
 var paths = {
   css: './*.css'
@@ -10,7 +8,11 @@ var paths = {
 
 gulp.task('css', function () {
   return gulp.src(paths.css)
-    .pipe(postcss([autoprefixer(), csswring]))
+    .pipe(postcss([
+      require('autoprefixer-core'),
+      require('postcss-custom-properties'),
+      require('csswring'),
+    ]))
     .pipe(gulp.dest('./dist'));
 });
 
