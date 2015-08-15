@@ -32,3 +32,23 @@ main > section {
 footer {
   color: gray;
 }
+
+g#Body {
+  transform-origin: 20% 50%;
+  animation: 3s 5s alternate infinite breathe;
+}
+
+#Left-Pupil, #Right-Pupil {
+  animation: 20s alternate infinite look-around;
+}
+
+@keyframes breathe {
+  to { transform: rotate(-2deg) }
+}
+
+@keyframes look-around {
+    0% { transform: translate(0px, 0px) }
+   49% { transform: translate(0px, 0px) }
+   52% { transform: translate(4px, 3px) }
+  100% { transform: translate(4px, 3px) }
+}
