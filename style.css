@@ -1,22 +1,26 @@
 body {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+  line-height: 150%;
 }
 
-header, main, footer {
-  max-width: 800px;
-  padding: 0 20px;
+section {
+  max-width: 600px;
+  padding: 1em 20px;
   margin: 0 auto;
+}
+
+header {
+  background-color: hsl(353.7, 70.5%, 70.8%);
+  color: white;
+  padding-top: 2em;
+}
+
+main > section {
+  box-shadow: 0 1px 3px gray;
+  margin-top: -2em;
+  background-color: white;
+}
+
+footer {
+  color: gray;
 }

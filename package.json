@@ -1,0 +1,29 @@
+{
+  "name": "dogpatchjs",
+  "version": "1.0.0",
+  "description": "Website for weekly informal JS meetup.",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^5.2.0",
+    "postcss-cli": "^1.5.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^5.2.0",
+    "csswring": "^3.0.5",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^5.1.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeal/dogpatchjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeal/dogpatchjs/issues"
+  },
+  "homepage": "https://github.com/mikeal/dogpatchjs#readme"
+}
