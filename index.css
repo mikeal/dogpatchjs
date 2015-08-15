@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+header, main, footer {
+  max-width: 800px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
