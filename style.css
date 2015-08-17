@@ -33,6 +33,10 @@ footer {
   color: gray;
 }
 
+svg {
+  max-width: 100%;
+}
+
 #Coco #Body {
   transform-origin: 20% 50%;
   animation: breathe 3s ease-in 0 infinite alternate;
