@@ -30,6 +30,10 @@ main > section {
   background-color: white;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 footer {
   color: gray;
 }
