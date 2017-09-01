@@ -21,7 +21,6 @@ header {
   background-color: var(--salmon);
   color: white;
   padding-top: 2em;
-  padding-bottom: 4em;
 }
 
 main > section {
@@ -67,4 +66,16 @@ svg {
    45% { transform: rotate(0deg) }
    55% { transform: rotate(4deg) }
   100% { transform: rotate(4deg) }
+}
+
+body#banner {
+  background-color: var(--salmon);
+  color: white;
+  margin: 8vw;
+  font-size: 3vw;
+}
+
+body#banner #coco {
+  width: 50vw;
+  height: 26vw;
 }
