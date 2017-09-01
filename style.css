@@ -21,6 +21,7 @@ header {
   background-color: var(--salmon);
   color: white;
   padding-top: 2em;
+  padding-bottom: 4em;
 }
 
 main > section {
